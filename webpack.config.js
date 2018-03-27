@@ -19,6 +19,12 @@ module.exports = {
   module: {
     rules: [
       {
+        enforce: 'pre', // ensure that lint is running before babel
+        test: /\.jsx?$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/
+      },
+      {
         test: /\.jsx?$/,
         loader: 'babel-loader'
       }
