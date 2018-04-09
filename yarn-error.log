@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/Xavier/.nvm/versions/node/v7.4.0/bin/node /Users/Xavier/.nvm/versions/node/v7.4.0/bin/yarn flow -- --init
+  /Users/Xavier/.nvm/versions/node/v7.4.0/bin/node /Users/Xavier/.nvm/versions/node/v7.4.0/bin/yarn flow
 
 PATH: 
   /Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/Xavier/.nvm/versions/node/v7.4.0/bin:/Users/Xavier/.rbenv/shims:/usr/local/heroku/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/Users/Xavier/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
@@ -5609,9 +5609,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 64
+  Exit code: 2
   Command: sh
-  Arguments: -c /Users/Xavier/code/react/complete-intro-to-react/node_modules/.bin/flow --init
+  Arguments: -c /Users/Xavier/code/react/complete-intro-to-react/node_modules/.bin/flow
   Directory: /Users/Xavier/code/react/complete-intro-to-react
   Output:
   
